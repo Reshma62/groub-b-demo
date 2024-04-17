@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply max-w-[1360px] mx-auto w-full;
+  }
+  .container-fluid {
+    @apply px-5 lg:px-12 font-roboto;
+  }
+}
+.light-blue-gradient {
+  background: linear-gradient(
+      116.57deg,
+      rgba(0, 60, 245, 0.48) 16.67%,
+      rgba(141, 202, 254, 0.48) 100%
+    ),
+    #ffffff;
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.button--outline:before {
+  position: absolute;
+  content: "";
+  padding: 1px;
+  border-radius: 8px;
+  background: linear-gradient(116.57deg, #003cf5 16.67%, #8dcafe 100%);
+  -webkit-mask: linear-gradient(black 0 0) content-box,
+    linear-gradient(black 0 0);
+  mask: linear-gradient(black 0 0) content-box, linear-gradient(black 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  position: absolute;
+  inset: 0;
+}
