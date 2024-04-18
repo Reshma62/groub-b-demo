@@ -25,9 +25,9 @@ const TabSections = () => {
       <div className="text-white">
         <div className="container">
           {/* Tab button */}
-          <div className="flex space-x-4 justify-center">
+          <div className="flex flex-wrap space-x-4 justify-center">
             <button
-              className={`px-4 py-3 text-2xl font-medium  rounded-md ${
+              className={`px-4 py-3 text-2xl max font-medium  rounded-md ${
                 activeTab === "tab1"
                   ? "bg-[#191919] text-white"
                   : "bg-transparent"
