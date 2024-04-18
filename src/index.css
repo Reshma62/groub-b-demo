@@ -9,7 +9,7 @@
     @apply max-w-[1360px] mx-auto w-full;
   }
   .container-fluid {
-    @apply px-5 lg:px-12 font-roboto;
+    @apply px-5 lg:px-12 font-roboto ;
   }
 }
 .light-blue-gradient {
