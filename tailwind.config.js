@@ -1,13 +1,17 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      container: {
+        maxWidth: "1360px",
+      },
       fontFamily: {
-        roboto: ["Roboto", "sans-serif"],
+        nunito: ["Nunito", "sans-serif"],
       },
       colors: {
-        primary: "#002eba",
+        primary: "#086FA4",
+        sec: "#11175D",
       },
     },
   },

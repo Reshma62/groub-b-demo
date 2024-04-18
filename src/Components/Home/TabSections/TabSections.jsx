@@ -9,12 +9,12 @@ const TabSections = () => {
   return (
     <div className="container-fluid pb-28 bg-black">
       <div className="max-w-4xl mx-auto text-center">
-        <h1 className="lg:text-[58px] text-4xl leading-tight text-white">
+        <h2 className="lg:text-[58px] text-4xl leading-tight text-white">
           Powering cybersecurity intelligence with{" "}
           <span className="light-blue-gradient block">
             Group-IB Unified Risk Platform
           </span>
-        </h1>
+        </h2>
         <p className="text-white max-md:text-base text-lg my-12">
           Understands the threat actors targeting your organization and
           optimizes your defenses against them. With intelligence at its core,
